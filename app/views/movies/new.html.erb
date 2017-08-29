@@ -1,0 +1,26 @@
+<%= form_for(@movie, remote: true) do |f| %>
+<div class="field">
+<%= f.label :title %>
+<%= f.text_field :title %>
+</div>
+
+<div class="field"
+<%= f.label :year %>
+<%= f.text_field :year %>
+</div>
+
+<div class="field"
+<%= f.label :genre %>
+<%= f.text_field :genre %>
+</div>
+<div class="field">
+<%= f.label :plot %>
+<%= f.text_field :plot %>
+</div>
+
+<div class="field">
+<%= f.label :picture %>
+<%= f.text_field :picture %>
+</div>
+<%= f.submit %>
+<% end %>
