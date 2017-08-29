@@ -10,7 +10,7 @@ class MoviesController < ApplicationController
     def create
         @movie = Movie.create!(movie_params)
 
-        redirect_to "/"
+        redirect_to root_path
     end
 
     def edit
