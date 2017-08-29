@@ -57,3 +57,5 @@ gem 'httparty'
 gem 'bootstrap-sass'
 gem 'bootswatch-rails'
 gem 'devise'
+gem 'cancancan'
+
