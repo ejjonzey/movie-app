@@ -7,3 +7,4 @@
 <h1>Plot: <%= @movie.plot%></h1>
 <hr>
 <h1>Picture: <%= image_tag @movie.picture%></h1>
+<%= link_to "edit", edit_movie_path(@movie.id)%>
